@@ -1,12 +1,12 @@
 let randomNumber1 = Math.floor(Math.random() * 6) + 1
 
 let p1 = document.querySelector(".img1")
-p1.setAttribute("src",`./images/dice${randomNumber1}.png`)
+p1.setAttribute("src",`./dice${randomNumber1}.png`)
 
 let randomNumber2 = Math.floor(Math.random() * 6) + 1
 
 let p2 = document.querySelector(".img2")
-p2.setAttribute("src",`./images/dice${randomNumber2}.png`)
+p2.setAttribute("src",`./dice${randomNumber2}.png`)
 
 let title = document.querySelector("h1")
 
